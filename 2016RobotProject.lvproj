@@ -126,12 +126,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Vision" Type="Folder" URL="../Vision">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Shooter" Type="Folder" URL="../Shooter">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="Boulder Intake Control" Type="Folder" URL="../Boulder Intake Control">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="Shooter" Type="Folder"/>
+		<Item Name="Boulder Intake Control" Type="Folder"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
@@ -515,6 +511,8 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="WPI_CANTalonSRX_ChangeMode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_ChangeMode.vi"/>
+				<Item Name="WPI_JoystickGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGetSetRefNum.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -535,6 +533,8 @@ AddOutputFilter chunkFilter
 			<Item Name="F510-X.vi" Type="VI" URL="../../Team900-VIs/Logitech/F510/F510-X.vi"/>
 			<Item Name="F510-D.vi" Type="VI" URL="../../Team900-VIs/Logitech/F510/F510-D.vi"/>
 			<Item Name="F510.vi" Type="VI" URL="../../Team900-VIs/Logitech/F510/F510.vi"/>
+			<Item Name="Boulder Intake Control Controller.vi" Type="VI" URL="../Boulder Intake Control/Implementation/Boulder Intake Control Controller.vi"/>
+			<Item Name="Shooter Controller.vi" Type="VI" URL="../Shooter/Implementation/Shooter Controller.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
