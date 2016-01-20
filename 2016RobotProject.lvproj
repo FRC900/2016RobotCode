@@ -535,6 +535,14 @@ AddOutputFilter chunkFilter
 			<Item Name="F510.vi" Type="VI" URL="../../Team900-VIs/Logitech/F510/F510.vi"/>
 			<Item Name="Boulder Intake Control Controller.vi" Type="VI" URL="../Boulder Intake Control/Implementation/Boulder Intake Control Controller.vi"/>
 			<Item Name="Shooter Controller.vi" Type="VI" URL="../Shooter/Implementation/Shooter Controller.vi"/>
+			<Item Name="Boulder Intake Control Setpoints.ctl" Type="VI" URL="../Boulder Intake Control/Implementation/Boulder Intake Control Setpoints.ctl"/>
+			<Item Name="Boulder Intake Control Operations.ctl" Type="VI" URL="../Boulder Intake Control/Implementation/Boulder Intake Control Operations.ctl"/>
+			<Item Name="Boulder Intake Control Controller Initialization.vi" Type="VI" URL="../Boulder Intake Control/Implementation/Infrastructure/Boulder Intake Control Controller Initialization.vi"/>
+			<Item Name="Boulder Intake Control Check for New Command.vi" Type="VI" URL="../Boulder Intake Control/Implementation/Infrastructure/Boulder Intake Control Check for New Command.vi"/>
+			<Item Name="Shooter Setpoints.ctl" Type="VI" URL="../Shooter/Implementation/Shooter Setpoints.ctl"/>
+			<Item Name="Shooter Operations.ctl" Type="VI" URL="../Shooter/Implementation/Shooter Operations.ctl"/>
+			<Item Name="Shooter Controller Initialization.vi" Type="VI" URL="../Shooter/Implementation/Infrastructure/Shooter Controller Initialization.vi"/>
+			<Item Name="Shooter Check for New Command.vi" Type="VI" URL="../Shooter/Implementation/Infrastructure/Shooter Check for New Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
