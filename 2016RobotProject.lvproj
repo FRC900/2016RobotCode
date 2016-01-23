@@ -529,9 +529,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NormalizeJoystick.vi" Type="VI" URL="../../Team900-VIs/Logitech/NormalizeJoystick.vi"/>
 			<Item Name="F510-X.vi" Type="VI" URL="../../Team900-VIs/Logitech/F510/F510-X.vi"/>
-			<Item Name="F510-D.vi" Type="VI" URL="../../Team900-VIs/Logitech/F510/F510-D.vi"/>
 			<Item Name="F510.vi" Type="VI" URL="../../Team900-VIs/Logitech/F510/F510.vi"/>
 			<Item Name="Boulder Intake Control Controller.vi" Type="VI" URL="../Boulder Intake Control/Implementation/Boulder Intake Control Controller.vi"/>
 			<Item Name="Shooter Controller.vi" Type="VI" URL="../Shooter/Implementation/Shooter Controller.vi"/>
