@@ -543,6 +543,9 @@ AddOutputFilter chunkFilter
 			<Item Name="Shooter Controller Initialization.vi" Type="VI" URL="../Shooter/Implementation/Infrastructure/Shooter Controller Initialization.vi"/>
 			<Item Name="Shooter Check for New Command.vi" Type="VI" URL="../Shooter/Implementation/Infrastructure/Shooter Check for New Command.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Turn to Angle.vi" Type="VI" URL="../Drive/Implementation/Infrastructure/Path Planning/Turn to Angle.vi"/>
+			<Item Name="F510-D.vi" Type="VI" URL="../../Team900-VIs/Logitech/F510/F510-D.vi"/>
+			<Item Name="NormalizeJoystick.vi" Type="VI" URL="../../Team900-VIs/Logitech/NormalizeJoystick.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
