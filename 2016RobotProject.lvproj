@@ -517,6 +517,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANTalonSRX_MotionProfile_TrajGlobal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_MotionProfile_TrajGlobal.vi"/>
 				<Item Name="WPI_CANTalonSRX_MotionProfile_IterateFlowControl.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_MotionProfile_IterateFlowControl.vi"/>
 				<Item Name="WPI_CANTalonSRX_SendMotionProfile.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SendMotionProfile.vi"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -551,6 +552,16 @@ AddOutputFilter chunkFilter
 			<Item Name="Z900_navX_Open_Serial.vi" Type="VI" URL="../Support Code/Team900-VIs/navX/navX Library v2/IO/Open/Z900_navX_Open_Serial.vi"/>
 			<Item Name="Z900_navX_Get_YPRHfH.vi" Type="VI" URL="../Support Code/Team900-VIs/navX/navX Library v2/Get/Z900_navX_Get_YPRHfH.vi"/>
 			<Item Name="NormalizeAngle.vi" Type="VI" URL="../Support Code/Team900-VIs/Team900SwerveDrive/NormalizeAngle.vi"/>
+			<Item Name="F510-D.vi" Type="VI" URL="../../Team900-VIs/Logitech/F510/F510-D.vi"/>
+			<Item Name="NormalizeJoystick.vi" Type="VI" URL="../../Team900-VIs/Logitech/NormalizeJoystick.vi"/>
+			<Item Name="zmq_socket.lvclass" Type="LVClass" URL="../Support Code/labview-zmq/zmq_socket.lvclass"/>
+			<Item Name="socket_type.ctl" Type="VI" URL="../Support Code/labview-zmq/socket_type.ctl"/>
+			<Item Name="socket_options.ctl" Type="VI" URL="../Support Code/labview-zmq/socket_options.ctl"/>
+			<Item Name="zmq_recv_timeout.vi" Type="VI" URL="../Support Code/labview-zmq/zmq_recv_timeout.vi"/>
+			<Item Name="zmq_ctx_create.vi" Type="VI" URL="../Support Code/labview-zmq/zmq_ctx_create.vi"/>
+			<Item Name="zmq_socket.vi" Type="VI" URL="../Support Code/labview-zmq/zmq_socket.vi"/>
+			<Item Name="zmq_connect.vi" Type="VI" URL="../Support Code/labview-zmq/zmq_connect.vi"/>
+			<Item Name="zmq_setsocketopt.vi" Type="VI" URL="../Support Code/labview-zmq/zmq_setsocketopt.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
