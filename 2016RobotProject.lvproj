@@ -129,6 +129,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Intake" Type="Folder" URL="../Intake">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Shooter" Type="Folder" URL="../Shooter">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
@@ -540,15 +543,10 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Boulder Intake Control Controller.vi" Type="VI" URL="../Boulder Intake Control/Implementation/Boulder Intake Control Controller.vi"/>
-			<Item Name="Shooter Controller.vi" Type="VI" URL="../Shooter/Implementation/Shooter Controller.vi"/>
 			<Item Name="Boulder Intake Control Setpoints.ctl" Type="VI" URL="../Boulder Intake Control/Implementation/Boulder Intake Control Setpoints.ctl"/>
 			<Item Name="Boulder Intake Control Operations.ctl" Type="VI" URL="../Boulder Intake Control/Implementation/Boulder Intake Control Operations.ctl"/>
 			<Item Name="Boulder Intake Control Controller Initialization.vi" Type="VI" URL="../Boulder Intake Control/Implementation/Infrastructure/Boulder Intake Control Controller Initialization.vi"/>
 			<Item Name="Boulder Intake Control Check for New Command.vi" Type="VI" URL="../Boulder Intake Control/Implementation/Infrastructure/Boulder Intake Control Check for New Command.vi"/>
-			<Item Name="Shooter Setpoints.ctl" Type="VI" URL="../Shooter/Implementation/Shooter Setpoints.ctl"/>
-			<Item Name="Shooter Operations.ctl" Type="VI" URL="../Shooter/Implementation/Shooter Operations.ctl"/>
-			<Item Name="Shooter Controller Initialization.vi" Type="VI" URL="../Shooter/Implementation/Infrastructure/Shooter Controller Initialization.vi"/>
-			<Item Name="Shooter Check for New Command.vi" Type="VI" URL="../Shooter/Implementation/Infrastructure/Shooter Check for New Command.vi"/>
 			<Item Name="zmq_socket.lvclass" Type="LVClass" URL="../Support Code/labview-zmq/zmq_socket.lvclass"/>
 			<Item Name="socket_type.ctl" Type="VI" URL="../Support Code/labview-zmq/socket_type.ctl"/>
 			<Item Name="socket_options.ctl" Type="VI" URL="../Support Code/labview-zmq/socket_options.ctl"/>
