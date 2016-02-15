@@ -679,11 +679,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Boulder Intake Control Controller.vi" Type="VI" URL="../Boulder Intake Control/Implementation/Boulder Intake Control Controller.vi"/>
-			<Item Name="Boulder Intake Control Setpoints.ctl" Type="VI" URL="../Boulder Intake Control/Implementation/Boulder Intake Control Setpoints.ctl"/>
-			<Item Name="Boulder Intake Control Operations.ctl" Type="VI" URL="../Boulder Intake Control/Implementation/Boulder Intake Control Operations.ctl"/>
-			<Item Name="Boulder Intake Control Controller Initialization.vi" Type="VI" URL="../Boulder Intake Control/Implementation/Infrastructure/Boulder Intake Control Controller Initialization.vi"/>
-			<Item Name="Boulder Intake Control Check for New Command.vi" Type="VI" URL="../Boulder Intake Control/Implementation/Infrastructure/Boulder Intake Control Check for New Command.vi"/>
 			<Item Name="zmq_socket.lvclass" Type="LVClass" URL="../Support Code/labview-zmq/zmq_socket.lvclass"/>
 			<Item Name="socket_type.ctl" Type="VI" URL="../Support Code/labview-zmq/socket_type.ctl"/>
 			<Item Name="socket_options.ctl" Type="VI" URL="../Support Code/labview-zmq/socket_options.ctl"/>
