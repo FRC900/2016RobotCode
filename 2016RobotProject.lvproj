@@ -525,6 +525,7 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="WPI_CANTalonSRX_APIFeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_APIFeedbackSelect.ctl"/>
 				<Item Name="WPI_CANTalonSRX_SetReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SetReference.vi"/>
+				<Item Name="WPI_CANTalonSRX_ConfigBrakeCoast.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_ConfigBrakeCoast.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -558,6 +559,10 @@ AddOutputFilter chunkFilter
 			<Item Name="NormalizeAngle.vi" Type="VI" URL="../Support Code/Team900-VIs/Team900SwerveDrive/NormalizeAngle.vi"/>
 			<Item Name="F510.vi" Type="VI" URL="../Support Code/Team900-VIs/Logitech/F510/F510.vi"/>
 			<Item Name="F510-X.vi" Type="VI" URL="../Support Code/Team900-VIs/Logitech/F510/F510-X.vi"/>
+			<Item Name="Z900_navX_DeviceTypeDef.ctl" Type="VI" URL="../Support Code/Team900-VIs/navX Library v2/TypeDefs/Z900_navX_DeviceTypeDef.ctl"/>
+			<Item Name="Z900_navX_ProtocolTypeDef.ctl" Type="VI" URL="../Support Code/Team900-VIs/navX Library v2/TypeDefs/Z900_navX_ProtocolTypeDef.ctl"/>
+			<Item Name="Z900_navX_NotifyPacketTypeDef.ctl" Type="VI" URL="../Support Code/Team900-VIs/navX Library v2/TypeDefs/Z900_navX_NotifyPacketTypeDef.ctl"/>
+			<Item Name="Z900_navX_ActionTypeDef.ctl" Type="VI" URL="../Support Code/Team900-VIs/navX Library v2/TypeDefs/Z900_navX_ActionTypeDef.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
